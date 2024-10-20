@@ -166,7 +166,7 @@ minimum temperatures,and dominant weather condition.
 ○ Verify that alerts are triggered only when a threshold is violated.
 
 ## Conclusion
-This real-time weather monitoring system allows you to track and summarize weather data for various cities in India, with added support for forecast data and threshold-based alerts. You can further customize and extend the functionality by integrating more weather parameters or adding visualizations.
+This real-time weather monitoring system allows you to track and summarize weather data for various cities in India, with added support for forecast data and threshold-based alerts. You can further customize and extend the functionality by integrating more weather parameters or adding visualizations
 
 ## OUTPUT
 ![Screenshot 2024-10-20 182141](https://github.com/user-attachments/assets/018eba80-5912-4ecc-b440-840ca00d1a04)
