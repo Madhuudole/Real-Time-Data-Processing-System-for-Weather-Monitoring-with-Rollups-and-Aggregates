@@ -3,7 +3,7 @@ ZEOTAP INTERN ASSIGNMENT TASK 2 :Real-Time Data Processing System for Weather Mo
 ## Objective:
 Developing  a real-time data processing system to monitor weather conditions and provide
 summarized insights using rollups and aggregates. The system will utilize data from the
-OpenWeatherMap API (https://openweathermap.org/).
+OpenWeatherMap API (https://openweathermap.org/)
 ## Overview
 This real-time weather monitoring system retrieves weather data from the OpenWeatherMap API and processes it to provide daily summaries, rollups, and alerts based on user-defined thresholds. The system can also retrieve weather forecasts and display summaries based on predicted conditions.
 
