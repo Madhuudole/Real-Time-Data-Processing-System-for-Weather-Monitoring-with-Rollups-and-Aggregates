@@ -1,8 +1,9 @@
 # Real-Time-Data-Processing-System-for-Weather-Monitoring-with-Rollups-and-Aggregates
 ZEOTAP INTERN ASSIGNMENT TASK 2 :Real-Time Data Processing System for Weather Monitoring with Rollups and Aggregates
-
-# Real-Time Weather Monitoring System
-
+## Objective:
+Developing  a real-time data processing system to monitor weather conditions and provide
+summarized insights using rollups and aggregates. The system will utilize data from the
+OpenWeatherMap API (https://openweathermap.org/).
 ## Overview
 This real-time weather monitoring system retrieves weather data from the OpenWeatherMap API and processes it to provide daily summaries, rollups, and alerts based on user-defined thresholds. The system can also retrieve weather forecasts and display summaries based on predicted conditions.
 
@@ -110,17 +111,6 @@ generate_forecast_summary('Mumbai')
 - **matplotlib**: For visualizing weather trends (optional, if you choose to add visualizations).
 
 ---
-
-## Conclusion
-This real-time weather monitoring system allows you to track and summarize weather data for various cities in India, with added support for forecast data and threshold-based alerts. You can further customize and extend the functionality by integrating more weather parameters or adding visualizations.
-
----
-
-Let me know if you'd like to add more details or features!
-## Objective:
-Developing  a real-time data processing system to monitor weather conditions and provide
-summarized insights using rollups and aggregates. The system will utilize data from the
-OpenWeatherMap API (https://openweathermap.org/).
 ## Data Source:
 The system will continuously retrieve weather data from the OpenWeatherMap API. You will
 need to sign up for a free API key to access the data. The API provides various weather
@@ -174,6 +164,9 @@ minimum temperatures,and dominant weather condition.
 ○ Define and configure user thresholds for temperature or weather conditions.
 ○ Simulate weather data exceeding or breaching the thresholds.
 ○ Verify that alerts are triggered only when a threshold is violated.
+
+## Conclusion
+This real-time weather monitoring system allows you to track and summarize weather data for various cities in India, with added support for forecast data and threshold-based alerts. You can further customize and extend the functionality by integrating more weather parameters or adding visualizations.
 
 ## OUTPUT
 http://127.0.0.1:5501/index.html
