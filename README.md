@@ -1,5 +1,122 @@
 # Real-Time-Data-Processing-System-for-Weather-Monitoring-with-Rollups-and-Aggregates
 ZEOTAP INTERN ASSIGNMENT TASK 2 :Real-Time Data Processing System for Weather Monitoring with Rollups and Aggregates
+
+# Real-Time Weather Monitoring System
+
+## Overview
+This real-time weather monitoring system retrieves weather data from the OpenWeatherMap API and processes it to provide daily summaries, rollups, and alerts based on user-defined thresholds. The system can also retrieve weather forecasts and display summaries based on predicted conditions.
+
+## Features
+- **Real-time weather monitoring** for cities in India (e.g., Delhi, Mumbai, Bangalore).
+- **Daily rollups and aggregates**: Calculate average, maximum, and minimum temperature, dominant weather condition, average humidity, and maximum wind speed.
+- **Threshold-based alerts**: Get alerts when temperature or other weather conditions exceed user-defined thresholds.
+- **Forecast summaries**: Retrieve and summarize the 5-day weather forecast.
+
+---
+
+## Prerequisites
+
+### 1. Python
+Ensure you have Python 3.6 or higher installed. You can download Python from the official [Python website](https://www.python.org/).
+
+### 2. OpenWeatherMap API Key
+You need an API key to access the OpenWeatherMap API. Follow the steps below to obtain the key:
+1. Sign up at [OpenWeatherMap](https://home.openweathermap.org/users/sign_up).
+2. Log in and navigate to the **API keys** section.
+3. Create an API key and copy it for use in this project.
+
+### 3. Install Required Python Packages
+This project uses several Python libraries. You can install them by running the following command in your terminal:
+
+```bash
+pip install requests pandas matplotlib
+```
+
+Alternatively, if using Docker or virtual environments, make sure these dependencies are listed in the `requirements.txt` file:
+```txt
+requests
+pandas
+matplotlib
+```
+
+---
+
+## Setup Instructions
+
+### 1. Clone the Repository
+To start working with this project, clone the repository:
+
+```bash
+git clone https://github.com/your-repo/real-time-weather-monitoring.git
+cd real-time-weather-monitoring
+```
+
+### 2. Configure API Key
+Edit the `weather_monitoring.py` file and replace the placeholder `your_api_key_here` with your actual API key from OpenWeatherMap.
+
+```python
+API_KEY = 'your_api_key_here'
+```
+
+### 3. Running the System
+You can run the weather monitoring system by executing the main script:
+
+```bash
+python weather_monitoring.py
+```
+
+This will continuously retrieve weather data, calculate daily summaries, and check for threshold alerts based on the current conditions.
+
+### 4. Configuring Thresholds (Optional)
+You can configure custom thresholds for temperature alerts in the system. Inside `weather_monitoring.py`, modify the alert thresholds as follows:
+
+```python
+THRESHOLD_TEMP = 35  # Trigger alert if temperature exceeds 35°C
+```
+
+---
+
+## Running Tests
+
+You can run the test suite to validate the system’s functionality. Test cases include:
+1. System setup and API connection.
+2. Data retrieval and parsing.
+3. Temperature conversion.
+4. Daily rollups and threshold-based alerts.
+
+To run the tests:
+
+```bash
+python -m unittest test_weather_monitoring.py
+```
+
+---
+
+## Additional Features
+- **Forecast summaries**: You can retrieve and generate summaries for the next 5 days by running:
+
+```python
+generate_forecast_summary('Mumbai')
+```
+
+- **Rollups for humidity and wind speed**: These are integrated into daily summaries and forecast summaries.
+
+---
+
+## Dependencies
+
+- **requests**: For making API calls to the OpenWeatherMap API.
+- **pandas**: For handling and analyzing weather data.
+- **matplotlib**: For visualizing weather trends (optional, if you choose to add visualizations).
+
+---
+
+## Conclusion
+This real-time weather monitoring system allows you to track and summarize weather data for various cities in India, with added support for forecast data and threshold-based alerts. You can further customize and extend the functionality by integrating more weather parameters or adding visualizations.
+
+---
+
+Let me know if you'd like to add more details or features!
 ## Objective:
 Developing  a real-time data processing system to monitor weather conditions and provide
 summarized insights using rollups and aggregates. The system will utilize data from the
