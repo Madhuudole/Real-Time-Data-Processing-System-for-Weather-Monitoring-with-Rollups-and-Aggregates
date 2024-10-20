@@ -1,0 +1,13 @@
+{
+    "main": {
+      "temp": 30.0,
+      "feels_like": 31.5
+    },
+    "weather": [
+      {
+        "main": "Clear"
+      }
+    ],
+    "dt": 1605182400  
+  }
+  
