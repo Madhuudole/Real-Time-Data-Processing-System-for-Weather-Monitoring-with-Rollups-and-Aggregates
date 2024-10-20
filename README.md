@@ -57,3 +57,6 @@ minimum temperatures,and dominant weather condition.
 ○ Define and configure user thresholds for temperature or weather conditions.
 ○ Simulate weather data exceeding or breaching the thresholds.
 ○ Verify that alerts are triggered only when a threshold is violated.
+
+## OUTPUT
+http://127.0.0.1:5501/index.html
