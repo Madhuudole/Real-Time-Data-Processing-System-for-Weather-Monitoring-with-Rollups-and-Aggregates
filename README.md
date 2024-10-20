@@ -1,10 +1,10 @@
 # Real-Time-Data-Processing-System-for-Weather-Monitoring-with-Rollups-and-Aggregates
 ZEOTAP INTERN ASSIGNMENT TASK 2 :Real-Time Data Processing System for Weather Monitoring with Rollups and Aggregates
-Objective:
-Develop a real-time data processing system to monitor weather conditions and provide
+## Objective:
+Developing  a real-time data processing system to monitor weather conditions and provide
 summarized insights using rollups and aggregates. The system will utilize data from the
 OpenWeatherMap API (https://openweathermap.org/).
-Data Source:
+## Data Source:
 The system will continuously retrieve weather data from the OpenWeatherMap API. You will
 need to sign up for a free API key to access the data. The API provides various weather
 parameters, and for this assignment, we will focus on:
@@ -38,7 +38,7 @@ Alerts could be displayed on the console or sent through an email notification
 system (implementation details left open-ended).
 3. Implement visualizations:
 ○ To display daily weather summaries, historical trends, and triggered alerts.
-Test Cases:
+## Test Cases:
 1. System Setup:
 ○ Verify system starts successfully and connects to the OpenWeatherMap API
 using a valid API key.
